@@ -1,0 +1,272 @@
+body {
+  padding-top: 60px;
+  background:#f4f4f4;
+  font-size:15px;
+}
+
+a{
+	color:#0560c2;
+}
+
+ul{
+	padding:0;
+	margin:0;
+	list-style:none;
+}
+
+hr{
+	margin:10px 0 15px 0;
+}
+
+h3{
+	margin-bottom:5px;
+}
+
+/* Navbar Customization */
+.navbar{
+	height:60px !important;
+	background:#16599f;
+	border:0;
+	margin-bottom:30px;
+}
+
+.navbar-inverse .navbar-nav > li > a, .navbar-inverse .navbar-brand{
+	color:#fff !important;
+}
+
+/* Navbar links hover yellow */
+.navbar-inverse .navbar-nav > li > a:hover {
+    color: #ffd700 !important;
+}
+
+.navbar a:hover,.navbar li.active a{
+	background:none !important;
+}
+
+.navbar-brand{
+	padding:15px 0 0 0;
+	color:#fff;
+}
+
+.navbar-nav > li > a{
+	padding:15px 10px 0 10px;
+}
+
+/* Fix dropdown */
+.navbar-inverse .navbar-nav .dropdown-toggle:hover,
+.navbar-inverse .navbar-nav .open .dropdown-toggle {
+    background-color: transparent !important;
+    color: #ffd700 !important;
+}
+
+/* Dropdown menu background same as navbar */
+.navbar-inverse .navbar-nav .dropdown-menu {
+    background-color: #0056b3;
+    border: none;
+}
+
+/* Dropdown menu items */
+.navbar-inverse .navbar-nav .dropdown-menu > li > a {
+    color: white;
+}
+
+/* Dropdown menu items hover - yellow text, no background change */
+.navbar-inverse .navbar-nav .dropdown-menu > li > a:hover {
+    background-color: transparent;
+    color: #ffd700;
+}
+
+.block{
+	background:#fff;
+	border-radius:5px;
+	padding: 15px 20px;
+	margin-bottom:20px;
+}
+
+.main-col{
+	overflow:auto;
+}
+
+.main-col h1{
+	font-size:22px;
+	margin:5px 0 0 0;
+	padding:0;
+}
+
+.main-col h4{
+	font-size:16px;
+	margin:5px 0 0 0;
+	padding:0;
+	color:#0056b3;
+}
+
+.sidebar .block h3{
+	margin:0 0 10px 0;
+	padding-bottom:10px;
+	border-bottom:#eee solid 1px;
+	color: #0056b3;
+}
+
+
+.topic{
+	border-bottom:#eee solid 1px;
+	margin-bottom:10px;
+	padding:10px;
+	color: #0056b3;
+}
+
+.topic-content{
+	width:100%;
+}
+
+img.avatar{
+	width:100%;
+}
+
+a.list-group-item.active, a.list-group-item.active:hover, a.list-group-item.active:focus{
+	background:#217de0;
+	border-radius:0;
+}
+
+.list-group-item{
+	border:0
+}
+
+#main-topic{
+	background:#f4f4f4;
+	padding:10px;
+}
+
+.user-info{
+	border:#ddd solid 1px;
+	padding:5px;
+	overflow:hidden;
+	font-size:13px;
+}
+
+.user-info img{
+	display:block;
+	margin-bottom:5px;
+}
+
+.user-info ul{
+	list-style:none;
+	margin:10px 0 0 5px;
+}
+
+.user-info li{
+	line-height:1.6em;
+}
+
+.btn-primary{
+	background: #0b437f;
+    border-color: #0b437f;
+}
+.btn-default{
+		background: #0b437f;
+    border-color: #0b437f;
+}
+.btn-block{
+	background: #0b437f;
+    border-color: #0b437f;
+}
+.color {
+	background-color: #217de0;
+	color: white;
+}
+
+/* Footer Styles */
+.footer {
+    background: #16599f;
+    color: white;
+    padding: 30px 0;
+    margin-top: 40px;
+}
+
+.footer h3 {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 45px;
+    /* font-weight: bold;  */
+	
+}
+
+.footer p {
+    margin-bottom: 15px;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold; /* Make all footer links bold */
+}
+
+.footer ul {
+    list-style: none;
+    padding-left: 0;
+	
+}
+
+.footer li {
+    margin-bottom: 15px;
+}
+
+/* Hover effect for footer links - no underline */
+.footer a:hover {
+    color: #ffd700; /* Yellow color on hover */
+    text-decoration: none; /* No underline on hover */
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    margin-right: 10px;
+    font-size: 18px;
+	 margin-bottom: 10px;
+}
+
+/* Social icons hover effect */
+.social-icons a:hover {
+    color: #ffd700;
+    text-decoration: none;
+}
+
+
+
+/* Login page heading colors */
+.pull-left {
+    color: #0056b3;
+}
+
+/* OR more specific for login page */
+.main-col h1.pull-left {
+    color: #0056b3;
+}
+
+/* OR if you want all h1 elements to be blue */
+h1 {
+    color: #0056b3;
+}
+.form-group label {
+    color: #0056b3 !important;
+}
+/* Add to custom.css */
+.navbar-nav > li > a {
+    margin-left: 15px;
+}
+.navbar-nav > li:first-child > a {
+    margin-left: 0;
+}
+/* Specific hover for topic title links */
+.topic-content h3 a:hover {
+    color: #d2bb3c !important;
+    text-decoration: none !important;
+}
+
+/* Specific hover for category and user links */
+.topic-info a:hover {
+    color: #d2bb3c !important;
+    text-decoration: none !important;
+}
